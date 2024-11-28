@@ -34,7 +34,6 @@ class Library(Book):
         self.book['Status'].append(self.availability)
         print(f'Book name: {self.name} is succesfully added, here is the information of the book you added')
         
-
     """This method can be used to borrow book from the library and give output if no book is found in the library"""
 
     def borrow_book(self, borrow_name):
